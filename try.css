@@ -1,12 +1,25 @@
 
     body{
   margin: 0;
-  font-family: arial, sans-serif;
+:font-family: 'Amatic SC', cursive;  
   line-height: 1.5;
-        color: aqua
+        color:black         
 }
 h1 {
-    color: crimson
+     font-family: 'Arimo', sans-serif; 
+    color: burlywood;
+font-size:40px;
+}
+P {
+font-size:30px;
+    color: burlywood;
+        font-family: 'Arimo', sans-serif; 
+}
+
+h2 {
+    color: darkcyan;
+    
+    
 }
 
 img {
