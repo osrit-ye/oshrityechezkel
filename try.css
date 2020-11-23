@@ -1,29 +1,41 @@
+body {
+    margin: 0;
+    : font-family: 'Amatic SC', cursive;
+    line-height: 1.5;
+    color: black
+}
 
-    body{
-  margin: 0;
-:font-family: 'Amatic SC', cursive;  
-  line-height: 1.5;
-        color:black         
-}
 h1 {
-     font-family: 'Arimo', sans-serif; 
+    font-family: 'Arimo', sans-serif;
     color: burlywood;
-font-size:40px;
+    font-size: 40px;
 }
+
 P {
-font-size:30px;
+    font-size: 30px;
     color: burlywood;
-        font-family: 'Arimo', sans-serif; 
+    font-family: 'Arimo', sans-serif;
 }
 
 h2 {
     color: darkcyan;
-    
-    
+
+
 }
 
 img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
+
+.container {
+max-width:800px;    
+margin:auto;
+}
+
+
+
+
+
+
