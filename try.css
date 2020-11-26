@@ -1,14 +1,14 @@
 body {
     margin: 0;
-    : font-family: 'Amatic SC', cursive;
+    font-family: 'Arimo', sans-serif;
     line-height: 1.5;
     color: black
 }
 
 h1 {
-    font-family: 'Arimo', sans-serif;
+ font-family: 'Amatic SC', cursive;
     color: burlywood;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 P {
@@ -36,6 +36,40 @@ margin:auto;
 
 
 
+.cta {
+    background:lavenderblush; 
+        font-size:21px;
+    text-align: center;
+    padding:20px;
+    
+}
+
+.button {
+    background:darkcyan;  
+        color:lavenderblush;
+    text-decoration: none;
+    padding: 14px;
+}
 
 
+.cta p {
+    color:black;
+    font-size:28px;
+    bottom: 50px;
+    margin-bottom:50px;
+    font-family: 'Arimo', sans-serif;
+    
+    
+}
 
+.cta h3 {
+ color:darkcyan;
+ font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    
+}
+
+img {
+ text-align: left;
+    
+}
