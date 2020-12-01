@@ -37,18 +37,19 @@ margin:auto;
 
 
 .cta {
-    background:lavenderblush; 
+    background:#d5dadc; 
         font-size:21px;
-    text-align: center;
     padding:20px;
-    
+    overflow: hidden;
+    margin: 25px;
 }
 
 .button {
-    background:darkcyan;  
-        color:lavenderblush;
+    background:#e6977f;  
+        color:#d5dadc;
     text-decoration: none;
-    padding: 14px;
+    padding: 15px  30px;
+    display: inline-block;
 }
 
 
@@ -63,13 +64,22 @@ margin:auto;
 }
 
 .cta h3 {
- color:darkcyan;
+ color:#e6977f;
  font-family: 'Amatic SC', cursive;
     font-size: 40px;
+
     
 }
 
-img {
- text-align: left;
-    
+.alignleft {
+    float: left;
+    margin-right:14px;
+    margin-bottom: 14px;
+ max-width: 50%;
+}
+
+.cta .alignleft {
+    float: left;
+    margin-right:14px;
+    margin-bottom: 14px;
 }
