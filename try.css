@@ -37,7 +37,7 @@ margin:auto;
 
 
 .cta {
-    background:#d5dadc; 
+    background:#c3d1d4; 
         font-size:21px;
     padding:20px;
     overflow: hidden;
@@ -45,8 +45,8 @@ margin:auto;
 }
 
 .button {
-    background:#e6977f;  
-        color:#d5dadc;
+    background:#c49870;  
+        color:#ffffff;
     text-decoration: none;
     padding: 15px  30px;
     display: inline-block;
@@ -64,7 +64,7 @@ margin:auto;
 }
 
 .cta h3 {
- color:#e6977f;
+ color:#c49870;
  font-family: 'Amatic SC', cursive;
     font-size: 40px;
 
@@ -82,4 +82,29 @@ margin:auto;
     float: left;
     margin-right:14px;
     margin-bottom: 14px;
+}
+
+.news {
+     padding: 60px;
+    background:url(img/a.jpg);  
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    
+}
+
+.news h2 {
+    color: black;
+    font-size:55px;
+    font-family: 'Amatic SC', cursive; 
+        
+}
+
+.news p{
+    color: black;
+    font-size: 20px;
+    font-family:'Arimo', sans-serif;
+    
 }
