@@ -1,0 +1,28 @@
+body {
+  font-family: 'Assistant', sans-serif;
+}
+h1, h2, h3, h4 {
+  font-family: 'Secular One', sans-serif;
+}
+ 
+.about{
+    background:#fafad6; 
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+    float: right;
+}
+
+.about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+}
+

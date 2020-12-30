@@ -86,25 +86,74 @@ margin:auto;
 
 .news {
      padding: 60px;
-    background:url(img/a.jpg);  
+    
+    /* 
+    background:url(img/a.jpg); */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),
+    url(img/a.jpg);  
     background-position: center;
     background-size: cover;
     text-align: center;
     font-size: 24px;
-    color: black;
+    color: white;
     
 }
 
 .news h2 {
-    color: black;
+    color: white;
     font-size:50px;
     font-family: 'Amatic SC', cursive; 
         
 }
 
 .news p{
-    color: black;
+    color:white;
     font-size: 20px;
     font-family:'Arimo', sans-serif;
     
+}
+
+input{
+    font: inherit;
+    color: inherit;
+    background: none;
+border: none;
+    border-bottom: 3px solid #fff;
+    padding: 5px;
+    
+    
+}
+
+
+input:focus{
+   input:focus {
+  outline: 0;
+  background: rgba(0,0,0,0.5);
+      
+}
+
+  
+        
+}
+label{
+    margin-bottom:20px;
+    display: block;
+}
+
+label span {
+  display: inline-block;
+  width: 100px;
+  margin-bottom:20px;
+ 
+}
+
+
+
+.news .button{
+ background: none;
+}
+
+.news.button:hover{
+    background: white;
+    color: black
 }
