@@ -1,13 +1,19 @@
 body {
-  font-family: 'Assistant', sans-serif;
-    font-size: 16px;
+  font-family: 'Assistant', sans-serif; 
+     margin: 0;
+     line-height: 1.5;
+
+
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .button {
   font-family: 'Secular One', sans-serif;
+  font-weight: 400;
+  
 }
+
  
 .about{
-    background:#fafad6; 
+    background:black; 
 }
 .container {
   max-width: 900px;
@@ -22,8 +28,58 @@ img {
 
 .about .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
+    grid-gap:30px;
 
 }
+
+.about img {
+  display: block;
+}
+
+h1{
+    font-size:  48px;
+    line-height: 1.1;
+    color:white;
+
+    
+}
+
+p{
+    color: white;
+}
+.button{
+    color: white;
+    text-decoration:none;
+  border:3px solid white;
+    padding:14px 20px;
+    display: inline-block;
+    margin-top:10px;
+    transition: .3s;
+border-radius: 15px;
+    margin-bottom:10px;  
+      
+}
+
+.button:hover{
+   background: white;
+    color: #000;
+
+    
+}
+
+
+
+.logo {
+  max-width: 150px;
+  display: block;
+  margin: 10px auto;
+    
+}
+
+
+
+
+
 
