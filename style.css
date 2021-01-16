@@ -1,85 +1,115 @@
 body {
-  font-family: 'Assistant', sans-serif; 
-     margin: 0;
-     line-height: 1.5;
+    font-family: 'Assistant', sans-serif;
+    margin: 0;
+    line-height: 1.5;
 
 
 }
-h1, h2, h3, h4, .button {
-  font-family: 'Secular One', sans-serif;
-  font-weight: 400;
-  
+
+h1,
+h2,
+h3,
+h4,
+.button {
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+
 }
 
- 
-.about{
-    background:black; 
+
+.about {
+    background: #f5baae;
 }
+
 .container {
-  max-width: 900px;
-  margin: auto;
+    max-width: 1024px;
+    margin: auto;
 }
+
 img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
     float: right;
 }
 
 .about .container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  align-items: center;
-    grid-gap:30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
 
 }
 
 .about img {
-  display: block;
+    display: block;
+      margin-top: 40px;
+
 }
 
-h1{
-    font-size:  48px;
+h1 {
+    font-size: 48px;
     line-height: 1.1;
-    color:white;
+    color: white;
 
-    
+
 }
 
-p{
+p {
     color: white;
 }
-.button{
+
+.button {
     color: white;
-    text-decoration:none;
-  border:3px solid white;
-    padding:14px 20px;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 14px 20px;
     display: inline-block;
-    margin-top:10px;
+    margin-top: 10px;
     transition: .3s;
-border-radius: 15px;
-    margin-bottom:10px;  
-      
+    border-radius: 15px;
+    margin-bottom: 10px;
+
 }
 
-.button:hover{
-   background: white;
+.button:hover {
+    background: white;
     color: #000;
 
-    
+
 }
 
 
 
 .logo {
-  max-width: 150px;
-  display: block;
-  margin: 10px auto;
-    
+    max-width: 150px;
+    display: block;
+    margin: 10px auto;
+
+}
+
+
+
+.gallery {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-size: 21px;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
 }
 
 
 
 
+.gallery img {
+    display: block;
+}
 
-
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
