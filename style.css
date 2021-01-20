@@ -30,7 +30,7 @@ img {
     max-width: 100%;
     width: auto;
     height: auto;
-    float: right;
+
 }
 
 .about .container {
@@ -113,3 +113,13 @@ h2 {
     font-size: 36px;
     text-align: center;
 }
+
+
+contact {
+  background: #b8bfcf;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  padding: 40px 0;
+}
+
