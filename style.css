@@ -18,7 +18,8 @@ h4,
 
 
 .about {
-    background: #f5baae;
+    background: #e8d0d6;
+    color: #7a565a;
 }
 
 .container {
@@ -27,7 +28,7 @@ h4,
 }
 
 img {
-    max-width: 100%;
+
     width: auto;
     height: auto;
 
@@ -50,14 +51,14 @@ img {
 h1 {
     font-size: 48px;
     line-height: 1.1;
-    color: white;
-
+    color: #7a565a;
 
 }
 
-p {
-    color: white;
+div {
+    display: block;
 }
+
 
 .button {
     color: white;
@@ -74,7 +75,7 @@ p {
 
 .button:hover {
     background: white;
-    color: #000;
+    color: #7a565a;
 
 
 }
@@ -84,7 +85,9 @@ p {
 .logo {
     max-width: 150px;
     display: block;
-    margin: 10px auto;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
 
 }
 
@@ -99,7 +102,7 @@ p {
     font-size: 21px;
     text-align: center;
     font-weight: bold;
-    color: gray;
+    color:#7a565a;
 }
 
 
@@ -115,11 +118,44 @@ h2 {
 }
 
 
-contact {
-  background: #b8bfcf;
-  font-size: 24px;
-  text-align: center;
-  margin-top: 60px;
-  padding: 40px 0;
+.contact {
+    background: #e8d0d6;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 60px;
+    padding: 40px 0;
+}
+
+a{
+    color: #7a565a;
+    
+}
+
+
+.contact a:hover {
+    opacity: 0.7;
+
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.contact li {
+    margin-bottom: 7px;
+
+}
+
+.footer {
+    background:#7a565a ;
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+.footer a{
+    margin: 0 10px;
 }
 
