@@ -19,7 +19,9 @@ h4,
 
 .about {
     background: #e8d0d6;
-    color: #7a565a;
+    color: #7d3e45;
+    font-size: 25px;
+
 }
 
 .container {
@@ -102,7 +104,7 @@ div {
     font-size: 21px;
     text-align: center;
     font-weight: bold;
-    color:#7a565a;
+    color: #7d3e45;
 }
 
 
@@ -126,9 +128,9 @@ h2 {
     padding: 40px 0;
 }
 
-a{
-    color: #7a565a;
-    
+a {
+    color: #7d3e45;
+
 }
 
 
@@ -148,14 +150,22 @@ a{
 
 }
 
+.contact a {
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
 .footer {
-    background:#7a565a ;
+    background: #7a565a;
     text-align: center;
     padding: 40px 0;
 
 }
 
-.footer a{
+.footer a {
     margin: 0 10px;
 }
-
