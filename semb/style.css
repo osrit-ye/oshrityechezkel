@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'yidishkeit';
-  src: url('fonts/yidishkeit/400/yiddishkeitAlefAlefAlef-Bold.woff') format('woff');
-  font-weight: 400;
+  font-family: 'aran';
+  src: url('fonts/os_aran_r_600ffc-webfont.woff') format('woff');
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
@@ -11,16 +11,16 @@
   font-style: normal;
 }
 
-
-
 body {
-  /* background: #000; */
-  color: #dcf2ec;
+  
   margin: 0;
   font-family: 'almoni-tzar';
   line-height: 1.5;
   font-size: 20px;
     text-align: center;
+    color: #c7a17a ;
+    background:#eae7df;
+    
 }
 img {
   max-width: 100%;
@@ -29,8 +29,68 @@ img {
 }
 h1 {
   font-size: 80px;
-  font-family: 'yidishkeit';
-  font-weight: 400;
-    color:#e0b192;
+  font-family: 'aran';
+  font-weight: 600;
+    color:#c7a17a;
     text-align: center;
 }
+
+h1:after{
+    content: "";
+    background-size: contain;
+    height: 30px;
+    max-width:400px;
+    display: block;
+    margin: auto;
+    
+}
+
+h2{
+    font-size: 28px;
+    color: #53473a ;
+    font-family: 'aran';
+    
+}
+h2:after {
+  content: "";
+  border-bottom: 3px solid #c7a17a;
+  width: 80px;
+  display: block;
+    margin: auto;
+
+}
+
+a{
+    color: #53473a;
+    
+    
+}
+.button {
+  text-decoration: none;
+  color:#fff ;
+  background:#53473a ;  
+  padding: 10px 40px;
+  display: inline-block;
+}
+.button:hover{
+  background:#c7a17a;
+  color: #000 ;
+}
+.container{
+    max-width: 980px;
+    margin: auto;
+}
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(img/img.jpg);
+  background-position: center 40%;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+    color: #eae7df;
+    
+    
+}
+
+
+
