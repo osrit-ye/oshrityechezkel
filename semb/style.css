@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'aran';
-  src: url('fonts/os_aran_r_600ffc-webfont.woff') format('woff');
+  src: url('fonts/aran/os_aran_r_600ffc-webfont.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: 'almoni-tzar';
-  src: url('fonts/almoni-tzar/400/almoni-tzar-aaa-400.woff') format('woff');
-  font-weight: 700;
+  font-family: 'almoni';
+  src: url('fonts/almoni-neue/400/almoni-neue-aaa-400.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
 }
 
 body {
   
   margin: 0;
-  font-family: 'almoni-tzar';
+  font-family: 'almoni';
   line-height: 1.5;
   font-size: 20px;
     text-align: center;
@@ -87,10 +87,44 @@ a{
   background-size: cover;
   text-align: center;
   padding: 50px 0;
-    color: #eae7df;
+    color:#eae7df;
     
-    
+   
+}
+
+.banner .container{
+    max-width: 700px;
+    font-size: 22px;
+}
+.features {
+  background: #fff;
+  text-align: center;
+    padding: 50px 0;
+}
+.features ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 56px;
+}
+.features img {
+  max-width: 100px;
+}
+
+.features h2:after {
+  margin: auto;
+}
+
+.features p{
+    color:#53473a;
+}
+
+.video{
+    text-align: center;
 }
 
 
-
+.our-vision {
+    padding: 56px 0;
+}
