@@ -88,9 +88,16 @@ a{
   text-align: center;
   padding: 50px 0;
     color:#eae7df;
+    position: relative;
     
    
 }
+
+.about {
+  position: relative;
+  padding: 56px 0 84px;
+}
+
 
 .banner .container{
     max-width: 700px;
@@ -127,4 +134,73 @@ a{
 
 .our-vision {
     padding: 56px 0;
+}
+
+footer {
+  background: #53473a;
+  color: #eae7df;
+  text-align: center;
+  padding: 14px 0;
+}
+footer a {
+  color:#c7a17a;
+}
+
+footer img{
+    width: 48px;
+    
+}
+
+.social{
+  margin:40px 0:  
+}
+
+.social a{ 
+    margin: 0 10px;
+    
+}
+
+
+.custom-shape-divider-bottom-1617037816 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1617037816 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.custom-shape-divider-bottom-1617037816 .shape-fill {
+    fill: #EAE7DF;
+}
+.about{
+    position: relative;
+}
+    .custom-shape-divider-top-1617037890 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1617037890 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.custom-shape-divider-top-1617037890 .shape-fill {
+    fill: #EAE7DF;
+}
 }
