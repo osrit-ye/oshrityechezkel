@@ -102,10 +102,18 @@ nav a {
     color: #eae7df;
     padding: 10px;
     display: block;
+      border-bottom: 3px solid transparent;
+
 }
 
+.current{
+    font-weight: bold;
+}
+nav a:hover{
+  border-bottom-color: #eae7df;
 
-
+    
+}
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(img/img.jpg);
