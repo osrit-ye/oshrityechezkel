@@ -12,6 +12,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'almoni';
+    src: url('fonts/almoni-neue/700/almoni-neue-aaa-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 body {
 
     margin: 0;
@@ -131,6 +139,24 @@ nav a:hover{
     position: relative;
     padding: 56px 0 84px;
 }
+.gift .banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url(img/23.jpg)
+}
+
+.visitors Center .banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url(img/1.jpg)
+}
+
+.about .banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url(img/123.jpg)
+}
+.contact .banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url(img/contact.jpg)
+}
 
 
 .banner .container {
@@ -219,4 +245,50 @@ footer img {
 
 .custom-shape-divider-bottom-1617037816 .shape-fill {
     fill: #EAE7DF;
+}
+
+.price-list{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    columns:2;
+    column-gap: 40px;
+}
+
+.price-list li {
+   display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.line{
+    flex: 1;
+    border-bottom: 2px solid  #53473a;
+    height: 1em;
+    margin: 0 5px;
+}
+
+.price{
+    font-weight: bold;
+  
+}
+.price-wrap{
+    padding: 59px 0;
+}
+
+.price-wrap img{
+    width: 80px;
+    margin: auto;
+    display: block;
+}
+
+.price-wrap h2{
+    margin-top: 0;
+}
+
+.contact .price-list{
+  columns:1;
+    max-width: 400px;
+    margin: auto;
 }
