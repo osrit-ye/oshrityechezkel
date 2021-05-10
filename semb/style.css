@@ -135,10 +135,7 @@ nav a:hover{
 
 }
 
-.about {
-    position: relative;
-    padding: 56px 0 84px;
-}
+
 .gift .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
    url(img/23.jpg)
@@ -146,7 +143,7 @@ nav a:hover{
 
 
 
-.about .banner {
+.page-about .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
    url(img/125.jpg)
 }
@@ -314,8 +311,55 @@ footer img {
 }
 .team img{
     border-radius: 50%;
+    border: 2px solid #EAE7DF;
+    box-shadow: 0px 0px 0px 5px  #53473a;
+}
+
 }
 
 .team p{
     color: #53473a; 
+  
+    
+    
 }
+
+form {
+  width: 350px;
+  margin: auto;
+}
+input, textarea {
+  font: inherit;
+  color: inherit;
+  display: block;
+  border: 0;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.8);
+    border-radius: 2px;
+    margin: 5px;
+}
+::placeholder {
+  color: #53473a ;
+  opacity: 0.5; 
+}
+textarea {
+  height: 200px;
+}
+label {
+  margin-bottom: 20px;
+  display: block;
+}
+.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+input:focus, textarea:focus {
+  outline: 0;
+  background: #fff;
+  box-shadow: inset 0 1px 5px rgba(0,0,0,0.7);
+}
+
