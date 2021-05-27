@@ -27,7 +27,7 @@ body {
     line-height: 1.5;
     font-size: 20px;
     text-align: center;
-    color: #c7a17a;
+    color: #72604e;
     background: #eae7df;
 
 }
@@ -315,6 +315,16 @@ footer img {
     box-shadow: 0px 0px 0px 5px  #53473a;
 }
 
+.our-vision img{
+    text-align: center;
+    
+    list-style: none;
+    display: inline;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      
+    max-width: 5%;
+
+        
 }
 
 .team p{
