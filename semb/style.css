@@ -317,15 +317,21 @@ footer img {
 
 .our-vision img{
     text-align: center;
-    
-    list-style: none;
-    display: inline;
+    margin-left: 48px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      
     max-width: 5%;
 
         
 }
+
+.our-vision li{
+    list-style: none;
+    display: flex;
+    flex: 1;
+   justify-content:space;
+    margin-right: 255px
+}
+
 
 .team p{
     color: #53473a; 
