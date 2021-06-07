@@ -333,6 +333,13 @@ footer img {
   margin: 20px;
     max-width: 260px;
 }
+.our-vision img {
+    max-width: 110px;
+}
+
+.our-vision h3, .our-vision p {
+    margin: 0 0 10px;
+}
 
 
 .team p{
@@ -404,6 +411,7 @@ border-color: #53473a ;
     right: 0;
   
 }
-.img-wrap{
-    position: relative;
+.img-wrap img{
+     display: block;
+
 }
