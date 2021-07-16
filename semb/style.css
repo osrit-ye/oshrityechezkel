@@ -44,8 +44,18 @@ h1 {
     font-weight: 600;
     color: #c7a17a;
     text-align: center;
+    animation: appear .2s ease alternate 1;
 }
 
+@keyframes appear{
+    0%{
+opacity:0;}
+    
+
+100{
+    opacity: 1;
+}
+}
 h1:after {
     content: "";
     background-size: contain;
@@ -89,6 +99,18 @@ a {
 .button:hover {
     background: #c7a17a;
     color: #000;
+}
+.button:hover{
+    animation: mybutton .3s linear alternate infinite;
+}
+@keyframes mybutton{
+    0%{
+      transform: scale(1);
+        
+    }
+    100%{
+      transform: scale(1.1);
+    }
 }
 
 .container {
@@ -145,11 +167,11 @@ nav a:hover{
 
 .page-about .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-   url(img/125.jpg)
+   url(img/about1.jpg)
 }
 .contact .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-   url(img/contact.jpg)
+   url(img/contact2.jpg)
 }
 
 
@@ -352,6 +374,7 @@ footer img {
 form {
   width: 350px;
   margin: auto;
+    margin-bottom: 50px;
 }
 input, textarea {
   font: inherit;
